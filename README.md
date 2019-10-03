@@ -12,7 +12,7 @@ All documentation relevant for the Bookit App Capstone project can be found link
 * [Architecture]()
 * [Component Descriptions]()
 * [Security]()
-* [API Overview]: (https://endpointsportal.sweng-581-capstone.cloud.goog/)
+* [API Overview](https://endpointsportal.sweng-581-capstone.cloud.goog/)
 
 ## Testing
 
