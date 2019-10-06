@@ -5,16 +5,17 @@ All documentation relevant for the Bookit App Capstone project can be found link
 # Overview
 
 ## Introduction
-* [Project Description]()
-* [User Stories]()
+
+- [Project Description]()
+- [User Stories]()
 
 ## Technical Details
-* [Architecture]()
-* [Component Descriptions]()
-* [Security]()
-* [Deployment]()
-* [Infrastructure]()
-* [API Overview](https://endpointsportal.sweng-581-capstone.cloud.goog/)
+
+- [Architecture](/architecture/overview.md)
+- [Component Descriptions]()
+- [Security]()
+- [Deployment]()
+- [Infrastructure]()
+- [API Overview](https://endpointsportal.sweng-581-capstone.cloud.goog/)
 
 ## Testing
-
