@@ -1,3 +1,3 @@
 # Bookit App Detailed Architecture
 
-[![architecture](/images/architecture/Bookit.png)](/images/Bookit.png)
+[![architecture](./images/detailed-architecture.png)](./images/detailed-architecture.png)

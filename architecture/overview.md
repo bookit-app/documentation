@@ -4,7 +4,7 @@ Bookit is comprised of a Mobile App and a Cloud Backend on GCP.
 
 ## High Level Architecture
 
-[![architecture](/images/high-level-architecture.png)](/images/high-level-architecture.png)
+[![architecture](./images/high-level-architecture.png)](./images/high-level-architecture.png)
 
 The following describes the components that will be used for the application along with the reasoning:
 
