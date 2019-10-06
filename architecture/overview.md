@@ -18,6 +18,16 @@ The following describes the components that will be used for the application alo
 * Firebase Auth:
 * Logging & Stackdriver:
 
+## Further Details
+
+* [Detailed Breakdown](detailed.md)
+* [Data Flow](dataflow.md)
+* [Security](security.md)
+* [Data Model](datamodel.md)
+* [Services](services.md)
+* [User Management](usermanagement.md)
+* [Operations](operations.md)
+
 ## Out of Scope
 
 Not sure if we are required to have something like this for the class but probably good that we mention things we purposefully didn't consider due to time constraints and cost.
