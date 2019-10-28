@@ -15,5 +15,6 @@ The Book-it app is broken down into a client app and a set of micro-services run
 ## Cloud Functions
 
 - [Service Offering Notification Publisher](https://github.com/bookit-app/service-offering-notification-publisher)
+- [Provider Delete Notification Publisher](https://github.com/bookit-app/provider-delete-notification-publisher)
 - [Welcome Email Generator](https://github.com/bookit-app/welcome-email-function)
 - [Profile Creation Notification Publisher](https://github.com/bookit-app/profile-create-event-publisher)
