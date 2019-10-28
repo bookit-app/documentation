@@ -8,11 +8,14 @@ All documentation relevant for the Bookit App Capstone project can be found link
 
 - [Project Description]()
 - [User Stories]()
+- [UI Mocks]()
 
 ## Technical Details
 
 - [Architecture](/architecture/overview.md)
-- [Component Descriptions]()
+- [Component Descriptions](/architecture/components.md)
+- [Data Model](/architecture/datamodel.md)
+- [Data Flow]()
 - [Security]()
 - [Deployment]()
 - [Infrastructure]()
