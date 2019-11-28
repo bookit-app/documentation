@@ -22,36 +22,36 @@ The Book-it app is broken down into a client mobile app and a set of micro-servi
 The following describes the components that will be used for the application along with statements from the Google docs about the components and some reasoning why we leveraged them for this project:
 
 - [Cloud Endpoints](https://cloud.google.com/endpoints/docs/)
-    - What is it?: Endpoints is an API management system that helps secure, monitor, analyze, and set quotas on APIs using the same infrastructure Google uses for its own APIs.
-    - Why we used it:
+    - **What is it?**: Endpoints is an API management system that helps secure, monitor, analyze, and set quotas on APIs using the same infrastructure Google uses for its own APIs.
+    - **Why we used it**: This is used at the API Gateway for all backend HTTP(s) based APIs for the project. Cloud Endpoints also provides the means to integrate the backend with authentication of users by enforcing a security policy and delegating token verification to the firebase infrastructure.
 
 - [Cloud Run](https://cloud.google.com/run/docs/)
-    - What is it?: Cloud Run is a managed compute platform that automatically scales stateless containers. Cloud Run is serverless: it abstracts away all infrastructure management, allowing us to focus only on the business application.
-    - Why we used it:
+    - **What is it?**: Cloud Run is a managed compute platform that automatically scales stateless containers. Cloud Run is serverless: it abstracts away all infrastructure management, allowing us to focus only on the business application.
+    - **Why we used it**: As the compute runtime for most all of the micro-services which make up the bookit-apps backend
 
 - [Cloud Functions](https://cloud.google.com/functions/docs/)
-    - What is it?: Google Cloud Functions is a lightweight compute solution for developers to create single-purpose, stand-alone functions that respond to Cloud events without the need to manage a server or runtime environment.
-    - Why we used it:
+    - **What is it?**: Google Cloud Functions is a lightweight compute solution for developers to create single-purpose, stand-alone functions that respond to Cloud events without the need to manage a server or runtime environment.
+    - **Why we used it**: To hook into Firestore and other Firebase triggers to generate background notifications and pubsub event messages
     
 - [Cloud Firestore](https://cloud.google.com/firestore/docs/) 
-    - What is it?: Cloud Firestore is a NoSQL document database built for automatic scaling, high performance, and ease of application development.
-    - Why we used it:
+    - **What is it?**: Cloud Firestore is a NoSQL document database built for automatic scaling, high performance, and ease of application development.
+    - **Why we used it**: The backend data storage
 
 - Mobile Application
-    - What is it?:
-    - Why we used it:
+    - **What is it?**: The client application built as a react native application
+    - **Why we used it**: To provide a client of the users
 
 - [Cloud Storage](https://cloud.google.com/storage/docs/) 
-    - What is it?: Cloud Storage allows world-wide storage and retrieval of any amount of data at any time
-    - Why we used it:
+    - **What is it?**: Cloud Storage allows world-wide storage and retrieval of any amount of data at any time
+    - **Why we used it**: This was used indirectly to store the binary files for the generated docker images which are deployed into cloud run
 
 - [Firebase Cloud Messaging]()
-    - What is it?:
-    - Why we used it:
+    - **What is it?**:
+    - **Why we used it**: This was going to be leveraged for push notifications. However, due to time constraints this was not yet implemented.
 
 - [Firebase Auth]()
-    - What is it?:
-    - Why we used it:
+    - **What is it?**:
+    - **Why we used it**: Used to provider a user based for the application and means to onboard, and authenticate end users to the application
 
 - [Logging & Stackdriver]()
     - What is it?:
