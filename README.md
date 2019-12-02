@@ -64,7 +64,7 @@ The following describes the components that will be used for the application alo
 - Components
   - [API Gateway](https://github.com/bookit-app/api-gateway)
   - [Profile Services](https://github.com/bookit-app/profile-services): Set of services related to a users profile
-  - [Provider Services](https://github.com/bookit-app/profile-services): Set of services related to Service Providers
+  - [Provider Services](https://github.com/bookit-app/provider-services): Set of services related to Service Providers
   - [Calendar Services](https://github.com/bookit-app/profile-services): Set of services related to calendar and appointment management
   - [Service Offering Notification Publisher](https://github.com/bookit-app/service-offering-notification-publisher)
   - [Provider Delete Notification Publisher](https://github.com/bookit-app/provider-delete-notification-publisher)
