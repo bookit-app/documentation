@@ -39,7 +39,7 @@ The following describes the components that will be used for the application alo
 
 - Mobile Application
     - **What is it?**: The client application built as a react native application
-    - **Why we used it**: To provide a client of the users
+    - **Why we used it**: To provide the client an front-end ui in both iso/android
 
 - [Cloud Storage](https://cloud.google.com/storage/docs/) 
     - **What is it?**: Cloud Storage allows world-wide storage and retrieval of any amount of data at any time
@@ -49,8 +49,8 @@ The following describes the components that will be used for the application alo
     - **What is it?**:
     - **Why we used it**: This was going to be leveraged for push notifications. However, due to time constraints this was not yet implemented.
 
-- [Firebase Auth]()
-    - **What is it?**:
+- [Firebase Auth](https://firebase.google.com/docs/auth)
+    - **What is it?**: Firebase Auth allows for a quick and easy way to set-up user authentication 
     - **Why we used it**: Used to provider a user based for the application and means to onboard, and authenticate end users to the application
 
 - [Logging & Stackdriver]()
@@ -70,6 +70,7 @@ The following describes the components that will be used for the application alo
   - [Provider Delete Notification Publisher](https://github.com/bookit-app/provider-delete-notification-publisher)
   - [Welcome Email Generator](https://github.com/bookit-app/welcome-email-function)
   - [Profile Creation Notification Publisher](https://github.com/bookit-app/profile-create-event-publisher)
+  - [Application Front-end](https://github.com/bookit-app/capstoneSweng894)
 
 ### Data Model
 
