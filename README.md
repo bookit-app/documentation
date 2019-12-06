@@ -21,7 +21,7 @@ Book It is a mobile application that allows its users to schedule appointments w
 ## UI Mocks 
 
  
-[![ui](./images/ui/login-with-email.png)](./images/login-with-email.png)
+[![ui](./images/ui/Login%20with%20Email.pngg)](./images/Login%20with%20Email.png.png)
 [Prefrences Views](./images/ui/prefrences.png)
 [CreateAppointment]
 [Account Dashboard]
