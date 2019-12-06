@@ -4,7 +4,7 @@
 - [Link Pending - Project Management and Tracking]()
 - [Link Pending - Requirements Specification]()
 - [Link Pending - User Stories]()
-- [Link Pending - UI Mocks](#UI Mocks)
+- [UI Mocks](#UI Mocks)
 - [Architecture & Design](#Architecture-&-Design)
   - [Infrastructure Level Architecture](#Infrastructure-Level-Architecture)
   - [Application Level Architecture](#Application-Level-Architecture)
@@ -20,6 +20,8 @@ Book It is a mobile application that allows its users to schedule appointments w
 
 ## Architecture & Design
 ### UI Mocks 
+
+Test 
 ### Infrastructure Level Architecture
 
 [![architecture](./images/architecture/high-level-architecture.png)](./images/high-level-architecture.png)
