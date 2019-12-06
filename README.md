@@ -87,9 +87,9 @@ This following list of links provides the references which contain documentation
     - [Service Offering Notification Publisher](https://github.com/bookit-app/service-offering-notification-publisher): Cloud Function which generates pubsub notifications based on firestore triggers
     - [Provider Delete Notification Publisher](https://github.com/bookit-app/provider-delete-notification-publisher): Cloud Function which generates pubsub notifications based on firestore triggers
     - [Provider Create Notification Publisher](https://github.com/bookit-app/provider-create-notification-publisher): Cloud Function which generates pubsub notifications based on firestore triggers
-    - [Profile Creation Notification Publisher](https://github.com/bookit-app/profile-create-event-publisher)
-    - [Appointment Notification](https://github.com/bookit-app/appointment-notification): Cloud Functions which triggers notifications based on appointment status changes
-    - [Welcome Email Function](https://github.com/bookit-app/welcome-email-function)
+    - [Profile Creation Notification Publisher](https://github.com/bookit-app/profile-create-event-publisher): Cloud Function which triggers notifications based on firestore triggers
+    - [Appointment Notification](https://github.com/bookit-app/appointment-notification): Cloud Function which triggers notifications based on firestore triggers
+    - [Welcome Email Function](https://github.com/bookit-app/welcome-email-function): Cloud Function which triggers email notifications based on firebase auth triggers
 
 - Clients
     - [Mobile Client Application](https://github.com/bookit-app/capstoneSweng894)
