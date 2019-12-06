@@ -1,7 +1,3 @@
-# documentation
-
-All documentation relevant for the Bookit App Capstone project can be found linked below.
-
 # Contents
 
 - [Application Overview](#Application-Overview)
