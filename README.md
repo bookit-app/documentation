@@ -10,7 +10,7 @@
   - [Application Level Architecture](#Application-Level-Architecture)
   - [Technical Components](#Technical-Components)
   - [Data Model](#Data-Model)
-  - [Client Facing API Descriptions](https://endpointsportal.sweng-581-capstone.cloud.goog/)
+  - [Client Facing API Descriptions](https://endpointsportal.bookit-app-260021.cloud.goog/)
 - [Deployment](#Deployment)
 - [Testing Strategy](#Testing-Strategy)
 
