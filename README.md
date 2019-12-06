@@ -4,7 +4,7 @@
 - [Link Pending - Project Management and Tracking]()
 - [Link Pending - Requirements Specification]()
 - [Link Pending - User Stories]()
-- [Link Pending - UI Mocks]()
+- [Link Pending - UI Mocks](#UI Mocks)
 - [Architecture & Design](#Architecture-&-Design)
   - [Infrastructure Level Architecture](#Infrastructure-Level-Architecture)
   - [Application Level Architecture](#Application-Level-Architecture)
@@ -19,7 +19,7 @@
 Book It is a mobile application that allows its users to schedule appointments with their local barbers by simply selecting a location then proceeding to choose a date and time to ensure their barber’s availability in order to schedule an appointment in advance. The purpose of this application is to help our users avoid long and unnecessary wait times. It also allows for barbershops to have a more balanced workflow by having immediate access to all scheduled appointments they may have throughout a given workday.
 
 ## Architecture & Design
-
+### UI Mocks 
 ### Infrastructure Level Architecture
 
 [![architecture](./images/architecture/high-level-architecture.png)](./images/high-level-architecture.png)
