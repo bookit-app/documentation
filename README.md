@@ -138,6 +138,14 @@ The deployment of the application is done in two parts:
 
 The deployment process is repeatable and automatized, and if we needed to bring the landscape up onto a new environment it is just a matter of adjusting the project, region, and environment variables necessary and triggering the runs via Cloud Build
 
+The below diagram shows the pathway (red lines) and the components which enable the automated deployment. This occurs once code is merged onto the master branch within the github repos.
+
+[![deployment](./images/architecture/deployment-highlighted.png)](./images/deployment-highlighted.png)
+
+1. Code is merged onto the master branch and Cloud build is notified to start the process
+2. Docker images are pushed to the gcr.io docker repo or if the code base is related to a cloud function pushed to the functions runtime
+3. Cloud run revisions are created for the app services and the newly created images generated in step 2 are pulled from gcr.io. Once the revision is up and healthy new traffic is routed from the old revision to the new one so that the new code is executed.
+
 ## Testing Strategy
 
 ### Objective
