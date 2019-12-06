@@ -12,7 +12,8 @@
   - [Data Model](#Data-Model)
   - [Client Facing API Descriptions](https://endpointsportal.bookit-app-260021.cloud.goog/)
 - [Deployment](#Deployment)
-- [Testing Strategy](#Testing-Strategy)
+- [Testing Strategy](./docs/Test_Plan.doc)
+    - [Integration Test Runner](https://github.com/bookit-app/integration-test-runner)
 
 # Application Overview
 
