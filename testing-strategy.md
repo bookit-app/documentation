@@ -69,7 +69,7 @@ The testing for BookIT mobile application is conducted in Agile Methodology.
 
 - **Integration, System, and Security tests** are implemented via a set of Postman collections and integrated with the CI/CD pipeline to be run periodically and automatically.
   - Refer to the [Integration Test Runner](https://github.com/bookit-app/integration-test-runner) for details on the scenarios, and what is currently covered.
-  - Access to the integration tests are located in Cloud Build and can be accessed [here](https://console.cloud.google.com/cloud-build/builds?project=bookit-app-260021&query=tags%3D%20%22integration-tests%22). Note requires authenticated access to the GCP Project.
+  - Access to the integration tests are located in Cloud Storage: Refer to the [results report](https://storage.cloud.google.com/bookit-integration-test-runner-output/report.html). Authentication is required.
 
 - **E2E Mobile Application Testing** are performed manually.
 
