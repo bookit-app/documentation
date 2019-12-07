@@ -27,10 +27,8 @@
 Book It is a mobile application that allows its users to schedule appointments with their local barbers by simply selecting a location then proceeding to choose a date and time to ensure their barber’s availability in order to schedule an appointment in advance. The purpose of this application is to help our users avoid long and unnecessary wait times. It also allows for barbershops to have a more balanced workflow by having immediate access to all scheduled appointments they may have throughout a given workday.
 ## UI Mocks 
 
- ### Login with Email 
-[![ui](./images/ui/Login%20with%20Email.png)](./images/Login%20with%20Email.png)
- ### Prefrences 
-[![ui](./images/ui/Preferences.png)](./images/Preferences.png)
+ ### Login with Email                    ### Prefrences
+[![ui](./images/ui/Login%20with%20Email.png)](./images/Login%20with%20Email.png) [![ui](./images/ui/Preferences.png)](./images/Preferences.png)
 ## Create Appointment
 [![ui](./images/ui/Create%20An%20Appointment.png)](./images/Create%20An%20Appointment.png)
 ## Account Dashboard 
