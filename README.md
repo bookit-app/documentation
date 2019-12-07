@@ -5,7 +5,7 @@
 - [Link Pending - Requirements Specification]()
 - [Link Pending - User Stories]()
 - [UI Mocks](#UI-Mocks)
-  - [Login with Email and User Prefrences ](#Login-With-Email-and-User-Prefrences )
+  - [Login with Email and User Prefrences ](#Login-With-Email-and-User-Prefrences)
   - [Create Appointment and Sign Up](#Create-Appointment-and-Sign-Up)
   - [Account Dashboard and View More Appointments ](#Account-Dashboard-and-View-More-Appointments)
   - [View Appointment Details and Edit Appointment](#View-Appointment-Details-and-Edit-Appointment)
@@ -18,27 +18,45 @@
   - [Client Facing API Descriptions](https://endpointsportal.bookit-app-260021.cloud.goog/)
 - [Deployment](#Deployment)
 - [Testing Strategy](./docs/Test_Plan.doc)
-    - [Integration Test Runner](https://github.com/bookit-app/integration-test-runner)
+  - [Integration Test Runner](https://github.com/bookit-app/integration-test-runner)
 
 # Application Overview
 
 Book It is a mobile application that allows its users to schedule appointments with their local barbers by simply selecting a location then proceeding to choose a date and time to ensure their barber’s availability in order to schedule an appointment in advance. The purpose of this application is to help our users avoid long and unnecessary wait times. It also allows for barbershops to have a more balanced workflow by having immediate access to all scheduled appointments they may have throughout a given workday.
-## UI Mocks 
 
- ### Login with Email and User Prefrences 
-[![ui](./images/ui/Login%20with%20Email.png)](./images/Login%20with%20Email.png) [![ui](./images/ui/Preferences.png)](./images/Preferences.png)
+## UI Mocks
+
+### Login with Email and User Preferences
+<p align="center">
+    <img src="./images/ui/Login%20with%20Email.png">
+    <img src="./images/ui/Preferences.png">
+</p>
+
 ## Create Appointment and Sign Up
-[![ui](./images/ui/Create%20An%20Appointment.png)](./images/Create%20An%20Appointment.png) [![ui](./images/ui/Sign%20up%20with%20Email.png)](./images/Sign%20up%20with%20Email.png)
-## Account Dashboard and View More Appointments 
-[![ui](./images/ui/Appointments%20Home.png)](./images/Appointments%20Home.png) [![ui](./images/ui/All%20Appointments.png)](./images/All%20Appointments.png)
+<p align="center">
+    <img src="./images/ui/Create%20An%20Appointment.png">
+    <img src="./images/ui/Sign%20up%20with%20Email.png">
+</p>
+
+## Account Dashboard and View More Appointments
+<p align="center">
+    <img src="./images/ui/Appointments%20Home.png">
+    <img src="./images/ui/All%20Appointments.png">
+</p>
+
 ## View Appointment Details and Edit Appointment
-[![ui](./images/ui/Style%20Textbox%20Selected%20–%201.png)](./images/Style%20Textbox%20Selected%20–%201.png) [![ui](./images/ui/Style%20Textbox%20Selected%20–%202.png)](./images/Style%20Textbox%20Selected%20–%202.png)
+<p align="center">
+    <img src="./images/ui/Style%20Textbox%20Selected%20–%201.png">
+    <img src="./images/ui/Style%20Textbox%20Selected%20–%202.png">
+</p>
+
 ## Profile
-[![ui](./images/ui/Preferences-1.png)](./images/Preferences-1.png)
+<p align="center">
+    <img src="./images/ui/Preferences-1.png">
+</p>
+
 ## Architecture & Design
 
-
- 
 ### Infrastructure Level Architecture
 
 [![architecture](./images/architecture/high-level-architecture.png)](./images/high-level-architecture.png)
@@ -144,6 +162,7 @@ In order to ensure the application is secured we have ensured the following for 
 The deployment of the application is done in two parts:
 
 - Infrastructure deployment: As the cloud backend is rather simplistic and made up of serverless components the baseline infrastructure setup was triggered via a set of shell commands using the gcloud CLI. As it was not needed for the project to implement this via Infrastructure as Code or required to be repeated in an automated means this was just done manually. Nevertheless this can be easily done and implemented if necessary. The following tasks were performed to setup the base level infrastructure:
+
   - Enable the Cloud Run, Build, Scheduler, Service Control, Service Management, Container Registry, Firestore, Functions, Logging, and Stackdriver
   - Configure Firestore basic settings as the Native DB and the US East region
   - Setup the necessary KMS keys for encryption of secrets
@@ -174,12 +193,13 @@ To be provided.
 ### Strategy
 
 - **Unit tests** are implemented for each repository. The unit tests are run in an automated fashion at various levels:
-    - When code is committed the unit tests are automatically triggered. If they fail the commit is blocked. This is to ensure all changes are appropriate tested and that there are no unintended consequences.
-    - When the Pull Request is opened on github the unit tests as well as linting is performed to ensure high quality of the code.
 
-- **Integration, System, and Security tests** are implemented via a set of Postman collections and integrated with the CI/CD pipeline to be run periodically and automatically. 
-    - Refer to the [Integration Test Runner](https://github.com/bookit-app/integration-test-runner) for details on the scenarios, and what is currently covered.
-    - Access to the integration tests are located in Cloud Build and can be accessed [here](https://console.cloud.google.com/cloud-build/builds?project=bookit-app-260021&query=tags%3D%20%22integration-tests%22). Note requires authenticated access to the GCP Project.
+  - When code is committed the unit tests are automatically triggered. If they fail the commit is blocked. This is to ensure all changes are appropriate tested and that there are no unintended consequences.
+  - When the Pull Request is opened on github the unit tests as well as linting is performed to ensure high quality of the code.
+
+- **Integration, System, and Security tests** are implemented via a set of Postman collections and integrated with the CI/CD pipeline to be run periodically and automatically.
+  - Refer to the [Integration Test Runner](https://github.com/bookit-app/integration-test-runner) for details on the scenarios, and what is currently covered.
+  - Access to the integration tests are located in Cloud Build and can be accessed [here](https://console.cloud.google.com/cloud-build/builds?project=bookit-app-260021&query=tags%3D%20%22integration-tests%22). Note requires authenticated access to the GCP Project.
 
 ### Test Cases
 
