@@ -3,7 +3,7 @@
 - [Application Overview](#Application-Overview)
 - [Link Pending - Project Management and Tracking]()
 - [Link Pending - Requirements Specification]()
-- [Link Pending - User Stories]()
+- [Link Pending - User Manual]()
 - [UI Mocks](#UI-Mocks)
   - [Login with Email and User Prefrences ](#Login-With-Email-and-User-Prefrences)
   - [Create Appointment and Sign Up](#Create-Appointment-and-Sign-Up)
