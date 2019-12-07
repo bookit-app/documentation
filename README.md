@@ -19,6 +19,7 @@
 - [Deployment](#Deployment)
 - [Testing Strategy](./testing-strategy)
   - [Integration Test Runner](https://github.com/bookit-app/integration-test-runner)
+  - [Authentication Required: Automated Integration Test Results](https://storage.cloud.google.com/bookit-integration-test-runner-output/report.html)
 
 # Application Overview
 
