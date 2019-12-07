@@ -6,7 +6,8 @@
 - [Link Pending - User Stories]()
 - [UI Mocks](#UI-Mocks)
   -[Login with Email](#Login-With-Email)
-  -[User Prefrences](#User-Prefernces)
+  -[User Prefrences](#Prefrences)
+  -[Create Appointment](#Create-Appointment)
 - [Architecture & Design](#Architecture-&-Design)
   - [Infrastructure Level Architecture](#Infrastructure-Level-Architecture)
   - [Application Level Architecture](#Application-Level-Architecture)
@@ -25,9 +26,9 @@ Book It is a mobile application that allows its users to schedule appointments w
  ### Login with Email
 [![ui](./images/ui/Login%20with%20Email.png)](./images/Login%20with%20Email.png)
  ### Prefrences
-[![ui]](./images/ui/Preferences.png)](./images/Preferences.png)
-
-[CreateAppointment]
+[![ui](./images/ui/Preferences.png)](./images/Preferences.png)
+## Create Appointment
+[!ui](./images/ui/Create%20An%20Appointment.png)](./images/Create%20An%20Appointment.png)
 [Account Dashboard]
 [Profile]
 [Update Account]
