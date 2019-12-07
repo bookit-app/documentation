@@ -17,7 +17,7 @@
   - [Data Model](#Data-Model)
   - [Client Facing API Descriptions](https://endpointsportal.bookit-app-260021.cloud.goog/)
 - [Deployment](#Deployment)
-- [Testing Strategy](./docs/Test_Plan.doc)
+- [Testing Strategy](./testing-strategy)
   - [Integration Test Runner](https://github.com/bookit-app/integration-test-runner)
 
 # Application Overview
@@ -183,17 +183,3 @@ The below diagram shows the pathway (red lines) and the components which enable 
 1. Code is merged onto the master branch and Cloud build is notified to start the process
 2. Docker images are pushed to the gcr.io docker repo or if the code base is related to a cloud function pushed to the functions runtime
 3. Cloud run revisions are created for the app services and the newly created images generated in step 2 are pulled from gcr.io. Once the revision is up and healthy new traffic is routed from the old revision to the new one so that the new code is executed.
-
-## Testing Strategy
-
-### Objective
-
-To be provided.
-
-### Strategy
-
-
-
-### Test Cases
-
-Test cases are defined within our project in [Azure Devops](). You can access the content of the test cases there. Additionally, for traceability the test cases implemented within the integration tests mentioned above are demarcated with the test case ID's so we know specifically which are passing or failing.
