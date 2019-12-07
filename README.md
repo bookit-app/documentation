@@ -10,6 +10,7 @@
   -[Create Appointment](#Create-Appointment)
   -[Account Dashboard](#Account-Dashboard)
   -[View More Appointments](#View-More-Appointments)
+  -[View Appointment Details](#View-Appointment-Details)
   -[Edit Appointment](#Edit-Appointment)
 - [Architecture & Design](#Architecture-&-Design)
   - [Infrastructure Level Architecture](#Infrastructure-Level-Architecture)
@@ -33,12 +34,12 @@ Book It is a mobile application that allows its users to schedule appointments w
 ## Create Appointment
 [![ui](./images/ui/Create%20An%20Appointment.png)](./images/Create%20An%20Appointment.png)
 ## Account Dashboard 
-[!ui](./images/ui/Appointments%20Home.png)](./images/Appointments%20Home.png)
+[![ui](./images/ui/Appointments%20Home.png)](./images/Appointments%20Home.png)
 ## Profile
 [![ui](./images/ui/Preferences-1.png)](./images/Preferences-1.png)
 ## View More Appointments
 [![ui](./images/ui/All%20Appointments.png)](./images/All%20Appointments.png)
-[View Appointment Details]
+## View Appointment Details
 [![ui](./images/ui/Style%20Textbox%20Selected%20–%201.png)](./images/Style%20Textbox%20Selected%20–%201.png)
 ## Edit Appointment
 [![ui](./images/ui/Style%20Textbox%20Selected%20–%202.png)](./images/Style%20Textbox%20Selected%20–%202.png)
