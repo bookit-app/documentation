@@ -6,11 +6,10 @@
 - [Link Pending - User Stories]()
 - [UI Mocks](#UI-Mocks)
   -[Login with Email and User Prefrences ](#Login-With-Email-and-User-Prefrences )
-  -[Create Appointment](#Create-Appointment)
-  -[Account Dashboard](#Account-Dashboard)
-  -[View More Appointments](#View-More-Appointments)
-  -[View Appointment Details](#View-Appointment-Details)
-  -[Edit Appointment](#Edit-Appointment)
+  -[Create Appointment and Sign Up](#Create-Appointment-and-Sign-Up)
+  -[Account Dashboard and View More Appointments ](#Account-Dashboard-and-View-More-Appointments)
+  -[View Appointment Details and Edit Appointment](#View-Appointment-Details-and-Edit-Appointment)
+  -[Profile](#Profile)
 - [Architecture & Design](#Architecture-&-Design)
   - [Infrastructure Level Architecture](#Infrastructure-Level-Architecture)
   - [Application Level Architecture](#Application-Level-Architecture)
@@ -28,19 +27,14 @@ Book It is a mobile application that allows its users to schedule appointments w
 
  ### Login with Email and User Prefrences 
 [![ui](./images/ui/Login%20with%20Email.png)](./images/Login%20with%20Email.png) [![ui](./images/ui/Preferences.png)](./images/Preferences.png)
-## Create Appointment
-[![ui](./images/ui/Create%20An%20Appointment.png)](./images/Create%20An%20Appointment.png)
-## Account Dashboard 
-[![ui](./images/ui/Appointments%20Home.png)](./images/Appointments%20Home.png)
+## Create Appointment and Sign Up
+[![ui](./images/ui/Create%20An%20Appointment.png)](./images/Create%20An%20Appointment.png) [![ui](./images/ui/Sign%20up%20with%20Email.png)](./images/Sign%20up%20with%20Email.png)
+## Account Dashboard and View More Appointments 
+[![ui](./images/ui/Appointments%20Home.png)](./images/Appointments%20Home.png) [![ui](./images/ui/All%20Appointments.png)](./images/All%20Appointments.png)
+## View Appointment Details and Edit Appointment
+[![ui](./images/ui/Style%20Textbox%20Selected%20–%201.png)](./images/Style%20Textbox%20Selected%20–%201.png) [![ui](./images/ui/Style%20Textbox%20Selected%20–%202.png)](./images/Style%20Textbox%20Selected%20–%202.png)
 ## Profile
 [![ui](./images/ui/Preferences-1.png)](./images/Preferences-1.png)
-## View More Appointments
-[![ui](./images/ui/All%20Appointments.png)](./images/All%20Appointments.png)
-## View Appointment Details
-[![ui](./images/ui/Style%20Textbox%20Selected%20–%201.png)](./images/Style%20Textbox%20Selected%20–%201.png)
-## Edit Appointment
-[![ui](./images/ui/Style%20Textbox%20Selected%20–%202.png)](./images/Style%20Textbox%20Selected%20–%202.png)
-
 ## Architecture & Design
 
 
