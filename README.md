@@ -5,7 +5,7 @@
 - [Link Pending - Requirements Specification]()
 - [Link Pending - User Manual]()
 - [UI Mocks](#UI-Mocks)
-  - [Login with Email and User Prefrences ](#Login-With-Email-and-User-Prefrences)
+  - [Login with Email and User Prefrences ](#Login-With-Email-and-User-Preferences)
   - [Create Appointment and Sign Up](#Create-Appointment-and-Sign-Up)
   - [Account Dashboard and View More Appointments ](#Account-Dashboard-and-View-More-Appointments)
   - [View Appointment Details and Edit Appointment](#View-Appointment-Details-and-Edit-Appointment)
