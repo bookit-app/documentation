@@ -10,7 +10,7 @@
   - [Account Dashboard and View More Appointments ](#Account-Dashboard-and-View-More-Appointments)
   - [View Appointment Details and Edit Appointment](#View-Appointment-Details-and-Edit-Appointment)
   - [Profile](#Profile)
-- [Architecture & Design](#Architecture-&-Design)
+- [Architecture & Design](#Architecture--Design)
   - [Infrastructure Level Architecture](#Infrastructure-Level-Architecture)
   - [Application Level Architecture](#Application-Level-Architecture)
   - [Technical Components](#Technical-Components)
