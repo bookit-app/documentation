@@ -17,6 +17,7 @@
  - [Testing Tools](#Testing-Tools)
  - [Test Environment](#Test-Environment)
  - [Terms/Acronyms](#Terms/Acronyms)
+ - [Word Doc of this content](./docs/Test_Plan.doc)
 
 ## Introduction
 
