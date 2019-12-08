@@ -17,7 +17,7 @@
  - [Testing Tools](#Testing-Tools)
  - [Test Environment](#Test-Environment)
  - [Terms/Acronyms](#Terms/Acronyms)
- - [Word Doc of this content](./docs/Test_Plan.doc)
+ - [Word Doc of this content](https://github.com/bookit-app/documentation/raw/master/docs/Test_Plan.doc)
 
 ## Introduction
 
