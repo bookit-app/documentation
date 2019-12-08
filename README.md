@@ -18,6 +18,7 @@
   - [Authentication Required: Client Facing API Descriptions](https://endpointsportal.bookit-app-260021.cloud.goog/)
 - [Deployment](#Deployment)
 - [Testing Strategy](./testing-strategy.md)
+  - Unit test insights are available on every repo. Click the Cover badge at the very top to access the metrics and repos.
   - [Integration Test Runner](https://github.com/bookit-app/integration-test-runner)
   - [Authentication Required: Automated Integration Test Results](https://storage.cloud.google.com/bookit-integration-test-runner-output/report.html)
 
