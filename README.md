@@ -3,7 +3,7 @@
 - [Application Overview](#Application-Overview)
 - [Project Management and Tracking](https://github.com/bookit-app/documentation/raw/master/docs/Project_Management_Documentation.docx)
 - [Requirements Specification](https://github.com/bookit-app/documentation/raw/master/docs/Functional_Specification_Document_BOOKIT.docx)
-- [Link Pending - User Manual]()
+- [User Manual](https://github.com/bookit-app/documentation/raw/master/docs/User_Manual.docx)
 - [UI Mocks](#UI-Mocks)
   - [Login with Email and User Prefrences ](#Login-With-Email-and-User-Preferences)
   - [Create Appointment and Sign Up](#Create-Appointment-and-Sign-Up)
